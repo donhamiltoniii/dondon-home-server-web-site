@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  dondon-homepage:
+  dondon-home-server-web-site:
     image: nginx:alpine
-    container_name: dondon-hompage
+    container_name: dondon-home-server-web-site
     ports:
       - "8080:80"
     volumes:
