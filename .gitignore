@@ -1,0 +1,12 @@
+# Secrets and environment files
+.env
+*.env
+deploy-secrets/
+config/secrets/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
