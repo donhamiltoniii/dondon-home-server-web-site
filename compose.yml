@@ -6,7 +6,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - /opt/my-first-deploy:/usr/share/nginx/html:ro
+      - /opt/dondon-home-server-web-site:/usr/share/nginx/html:ro
     restart: unless-stopped
     networks:
       hl-docker-network:
